@@ -38,7 +38,7 @@ function client (...middleware) {
     })
 
     initialState.app = initialState.app || {}
-    return configStore(finalReducer, intialState)
+    return configStore(finalReducer, initialState)
   }
 }
 
