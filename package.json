@@ -2,7 +2,7 @@
   "name": "vdux-client",
   "description": "Pre-bundled clientside vdux store creator",
   "repository": "git://github.com/ashaffer/vdux-client.git",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
