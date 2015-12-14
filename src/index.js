@@ -35,7 +35,7 @@ function client (...middleware) {
       combineReducers({
         app: ephemeral
       })
-    })
+    )
 
     initialState.app = initialState.app || {}
     return configStore(finalReducer, intialState)
