@@ -3,8 +3,8 @@
  */
 
 import {createStore, applyMiddleware} from 'redux'
-import combineReducers from '@micro-js/combine-reducers'
-import composeReducers from '@micro-js/compose-reducers'
+import combineReducers from '@f/combine-reducers'
+import composeReducers from '@f/compose-reducers'
 import component from 'virtex-component'
 import ephemeral from 'redux-ephemeral'
 import local from 'virtex-local'
