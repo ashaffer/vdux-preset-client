@@ -16,7 +16,7 @@
     "redux-ephemeral": "^0.1.9",
     "redux-multi": "^0.1.10",
     "virtex-component": "^0.1.7",
-    "virtex-dom": "^0.1.20",
+    "virtex-dom": "^0.1.21",
     "virtex-local": "^0.1.13"
   },
   "devDependencies": {
