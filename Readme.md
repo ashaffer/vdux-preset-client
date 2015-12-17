@@ -14,6 +14,7 @@ Pre-bundled client-side vdux store creator
 Instead of calling [redux](https://github.com/rackt/redux) directly, you call vdux-client, like this:
 
 ```javascript
+import vdux from 'vdux'
 import client from 'vdux-client'
 import thunk from 'redux-thunk'
 // ...any other redux middleware you like...
