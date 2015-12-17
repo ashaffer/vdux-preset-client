@@ -19,11 +19,11 @@ import thunk from 'redux-thunk'
 // ...any other redux middleware you like...
 import reducer from './reducer'
 
+const initialState = {}
 const configStore = client(thunk, ...otherMiddleware)
+const store = configStore(reducer, initialState)
 
-export default function (initialState) {
-  return configStore(reducer, initialState)
-}
+vdux(store, app, document.body)
 ```
 
 That's it.
