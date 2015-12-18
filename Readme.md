@@ -1,5 +1,5 @@
 
-# vdux-client
+# vdux-preset-client
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
@@ -7,14 +7,14 @@ Pre-bundled client-side vdux store creator
 
 ## Installation
 
-    $ npm install vdux-client
+    $ npm install vdux-preset-client
 
 ## Usage
 
-Instead of calling [redux](https://github.com/rackt/redux) directly, you call vdux-client, like this:
+Instead of calling [redux](https://github.com/rackt/redux) directly, you call vdux-present-client, like this:
 
 ```javascript
-import client from 'vdux-client'
+import client from 'vdux-preset-client'
 import thunk from 'redux-thunk'
 // ...any other redux middleware you like...
 import reducer from './reducer'

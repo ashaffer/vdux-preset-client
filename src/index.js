@@ -23,7 +23,7 @@ const defaults = [
 ]
 
 /**
- * vdux-client
+ * vdux-preset-client
  */
 
 function client (...middleware) {

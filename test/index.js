@@ -3,12 +3,12 @@
  */
 
 import test from 'tape'
-import vdux-client from '../src'
+import client from '../src'
 
 /**
  * Tests
  */
 
-test('should work', () => {
+test('should work', t => {
 
 })

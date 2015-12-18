@@ -1,7 +1,7 @@
 {
-  "name": "vdux-client",
+  "name": "vdux-preset-client",
   "description": "Pre-bundled clientside vdux store creator",
-  "repository": "git://github.com/ashaffer/vdux-client.git",
+  "repository": "git://github.com/ashaffer/vdux-preset-client.git",
   "version": "0.2.3",
   "license": "MIT",
   "main": "lib/index.js",
@@ -20,7 +20,7 @@
     "virtex-local": "^0.1.13"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-es2015": "^6.3.13",
     "standard": "^5.1.0",
     "tape": "^4.2.0"
   }
